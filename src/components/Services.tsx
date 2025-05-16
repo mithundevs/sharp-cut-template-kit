@@ -1,5 +1,5 @@
 
-import { Scissors, Comb, Razor } from "lucide-react";
+import { Scissors, Cut, Spraybottle } from "lucide-react";
 import { useState } from "react";
 
 interface Service {
@@ -26,7 +26,7 @@ const Services = () => {
       title: "Beard Trim & Shape",
       description: "Expert beard trimming and shaping to enhance your facial features.",
       price: "$20",
-      icon: <Razor className="w-8 h-8 text-barber-600" />,
+      icon: <Cut className="w-8 h-8 text-barber-600" />,
       duration: "20 min"
     },
     {
@@ -34,7 +34,7 @@ const Services = () => {
       title: "Full Service Package",
       description: "Complete grooming experience with haircut, beard trim, hot towel and styling.",
       price: "$45",
-      icon: <Comb className="w-8 h-8 text-barber-600" />,
+      icon: <Scissors className="w-8 h-8 text-barber-600" />,
       duration: "45 min"
     },
     {
@@ -42,7 +42,7 @@ const Services = () => {
       title: "Hot Towel Shave",
       description: "Traditional straight razor shave with hot towel treatment for ultimate relaxation.",
       price: "$35",
-      icon: <Razor className="w-8 h-8 text-barber-600" />,
+      icon: <Cut className="w-8 h-8 text-barber-600" />,
       duration: "30 min"
     },
     {
@@ -50,7 +50,7 @@ const Services = () => {
       title: "Hair & Beard Coloring",
       description: "Professional color application for hair or beard with natural results.",
       price: "$40+",
-      icon: <Comb className="w-8 h-8 text-barber-600" />,
+      icon: <Spraybottle className="w-8 h-8 text-barber-600" />,
       duration: "60 min"
     },
     {
